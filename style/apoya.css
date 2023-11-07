@@ -1,0 +1,77 @@
+
+.seccion{
+    display: flex;
+    margin: 0px;
+	padding: 0px;
+}
+    .articulos{
+        
+        margin: 10px;
+	    
+        flex: 2 1 auto;
+        display: flex;	/*uno a lado del otro*/
+        flex-flow: row wrap; 
+    }
+        .donacion{
+            flex: 1 1 30%;
+            margin: 8px;
+	        padding: 0px;
+        }
+            .donacion img{
+            width: 100%;
+            height: 100%;
+            }
+        .article{
+            background: #a7e2f3;
+            flex: 1 1 40%;
+            margin: 8px;
+	        padding: 7px;
+        }
+        .article h2 {
+            font-size: 26px; 
+        }
+        
+        .article p {
+            font-size: 18px; 
+        }
+        
+    .aside{
+        background: #f8f5df;
+        flex: 1 1 100%;
+        height: 70%;
+        margin: 0%;
+	    padding: 8px;
+	    
+    }
+        .forma-apoyo{
+            margin: 8%;
+	        padding: 10px;
+            border-color: aqua;
+        }
+
+    /* Estilos para los botones */
+.botones-apoyo button {
+    background-color: #add9e5;
+    color: #0c0c0c;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+    transition: background-color 0.3s, transform 0.2s;
+    cursor: pointer;
+  }
+  
+  /* Estilos al pasar el mouse por encima del botón */
+  .botones-apoyo button:hover {
+    background-color: rgb(118, 220, 238);
+    transform: scale(1.05); /* Escala el botón en un 5% más grande */
+  }
+  
+  /* Estilos al hacer clic en el botón */
+  .botones-apoyo button:active {
+    background-color: #e9f892;
+    transform: scale(0.95); /* Escala el botón en un 5% más pequeño */
+  }
+  
